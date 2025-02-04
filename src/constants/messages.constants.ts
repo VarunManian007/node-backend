@@ -9,7 +9,8 @@ export const MESSAGES = {
         INVALID_LOGIN_CREDENTIALS: "Invalid login credentials.",
         LOGIN_USER_ERROR: "Error logging in the user. Verify Credentials.",
         FETCH_USER_ERROR: "Error in fetching the user.",
-        EMAIL_ALREADY_EXIST: "Email already exists."
+        EMAIL_ALREADY_EXIST: "Email already exists.",
+        INVALID_REQUEST: "Invalid request."
     },
     REGEX: {
         PASSWORD_REGEX: /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
