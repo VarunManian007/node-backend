@@ -66,7 +66,14 @@ Note:
 
 1. Installs all the dependencies needed for the project to run.
 
+### `MongoDB used via Docker`
+
+```bash
+$ docker run -d --name mongodb -p 27017:27017 mongo
+```
+
 ## Compile and run the project
+
 
 ```bash
 $ npm start
