@@ -2,10 +2,10 @@ import { BadRequestException, Injectable, Logger } from "@nestjs/common";
 import { JwtService } from "@nestjs/jwt";
 import { InjectModel } from "@nestjs/mongoose";
 import { Error, Model } from "mongoose";
-import { User } from "src/Schema/user.schema";
+import { User } from "../Schema/user.schema";
 import * as bcrypt from 'bcrypt';
-import { MESSAGES } from "src/constants/messages.constants";
-import { ApiResponse } from "src/model/api-response.model";
+import { MESSAGES } from "../constants/messages.constants";
+import { ApiResponse } from "../model/api-response.model";
 
 @Injectable()
 export class UserService {
