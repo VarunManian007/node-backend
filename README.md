@@ -3,7 +3,7 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Project Structure
-
+```
 node-backend/
 ├── .github/
 │   └── workflows/
@@ -44,6 +44,7 @@ node-backend/
 ├── package-lock.json (.gitignored -> Run npm install) 
 ├── tsconfig.build.json
 └── tsconfig.json
+```
 
 ## Project setup
 
@@ -60,7 +61,8 @@ Create .env file and add:
 4. TOKEN_SECRET=SECRET_KEY
 
 Note:
-1. Running it in 3001 so that no conflicts arise with React frontend which runs on port 3000
+1. Running it in 3001 so that no conflicts arise with React frontend which runs on port 3000.
+2. TOKEN_SECRET is a text for jwt secret key.
 
 ### `npm install/npm i`
 
