@@ -195,6 +195,5 @@ Fetches all registered users.
 - All responses return JSON format.
 - Authentication tokens are required for protected endpoints.
 - Input validation is enforced for security.
-- Postman Collections has been sent
 
 
