@@ -13,7 +13,7 @@ export const MESSAGES = {
         INVALID_REQUEST: "Invalid request."
     },
     REGEX: {
-        PASSWORD_REGEX: /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
+        PASSWORD_REGEX: /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&#^()+={}[\]:;<>,.?/~_\\|-])[A-Za-z\d@$!%*?&#^()+={}[\]:;<>,.?/~_\\|-]{8,}$/
     },
     TRACING: {
         CONTROLLER: {
